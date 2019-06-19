@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>新生儿</title>
+</head>
+<style>
+    body {
+        background-image: url(/images/home.jpg);
+        background-size: 100%, 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin: 0;
+    }
+  
+    #header {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(138, 101, 101);
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    #header> li {
+        float: left;
+    }
+
+    #header li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+   #header li a:hover:not(.active) {
+        background-color: rgb(90, 88, 88);
+    }
+
+    .active {
+        background-color: rgb(25, 89, 119);
+    }
+    .logo_text{
+        position:absolute;
+        top:150px;
+        left:560px;
+    }
+
+    .logo_text ul{
+      list-style-type: none;
+    }
+    .logo_text li{
+        text-align: center;
+        color: rgb(19, 118, 148);
+    }
+</style>
+
+<body>
+    
+    <ul id="header">
+        <li><a class="active" href="#home">产品主页</a></li>
+        <li><a href="#news">产品下载</a></li>
+        <li><a href="#contact">联系我们</a></li>
+        <li style="float:right"><a href="#about">关于</a></li>
+    </ul>
+
+   <div class="logo_text">
+       <ul>
+           <li><h1>编制千万家庭未来之家</h1></li>
+           <li><h2>LOVE IS LOVE | all for family</h2></li>
+       </ul>
+
+    </div>
+</body>
+
+</html>
